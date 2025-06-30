@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#restorent-navbar{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 3px 5px lightgray;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100vw;
+    z-index: 99999999999;
+}
+
+
+.anchor{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+#special-hover{
+    display: flex;
+    gap: 10px;
+}
+
+#special-hover:hover{
+    span{
+        color: #FF5200;
+    }
+    p{
+        color: rgb(133, 132, 132);
+    }
+}
+
+
+.anchor:hover{
+    color: #FF5200;
+}
+
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+
+
+#slider-container{
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+#slider{
+    display: flex;
+    overflow-x: scroll;
+    margin: auto;
+    height: 210px;
+   
+    scrollbar-width: none;
+    
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#tr-text-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    width: 80vw;
+}
+
+
+#tr-container{
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    
+
+}
+
+
+
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.cards > img{
+    height: 170px;
+    width: 270px;
+    border-radius: 30px;
+    
+}
+
+
+.cards >div > img{
+    height: 170px;
+    width: 270px;
+    border-radius: 30px;
+    
+}
+
+
+
+
+#slider2{
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
+}
+
+
+.cards > div{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+.cards > div > h2{
+    font-size: 18px;
+}
+
+
+.cards-special{
+    font-size: 18px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.cards-gray-line{
+    color: rgb(105, 104, 104);
+}
+
+
+#slider2{
+    display: flex;
+
+}
+
+
+
+.cards:hover{
+    scale: 0.9;
+    transition-duration: .2s;
+}
+
+
+.filter-btns{
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    
+}
+
+
+.filter-btns:hover{
+    cursor: pointer;
+}
